@@ -1,5 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:wght@100;400;700&display=swap');
+
 
 body {
-    font-family: lato;
+    background-color: #eee;
+    font-family: "Lato", sans-serif;
+    padding: 50px;
+}
+
+.custom-container {
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 80px 50px 50px;
+    background-color: #f8f8f8;
+}
+
+.title h1 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 86.4px;
+}
+
+.title-description p {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.bg-exercici {
+    background-color: #E2E7F1;
+}
+
+.row-cards h6 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+}
+
+.row-cards p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21.6px;
 }
